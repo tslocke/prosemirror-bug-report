@@ -259,10 +259,16 @@ prosemirror-state@^1.2.2:
     prosemirror-model "^1.0.0"
     prosemirror-transform "^1.0.0"
 
-prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0, prosemirror-transform@^1.5.0:
+prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/prosemirror-transform/-/prosemirror-transform-1.5.0.tgz#fb13e4cce6a69dc9002addffa15fc5cf79835453"
   integrity sha512-uYbTiuY7KMeBG2WprTD1Qz7ge4enD0ZD84Vg7rHqHT6U9LmyKLSETovWNSdikq+LVYOejc+7P8/a1pdmiWV4Pw==
+  dependencies:
+    prosemirror-model "^1.0.0"
+
+"prosemirror-transform@https://github.com/ProseMirror/prosemirror-transform.git#f3a66f45f9ead26cb9d9069d5677bd631e6229ba":
+  version "1.5.0"
+  resolved "https://github.com/ProseMirror/prosemirror-transform.git#f3a66f45f9ead26cb9d9069d5677bd631e6229ba"
   dependencies:
     prosemirror-model "^1.0.0"
 
